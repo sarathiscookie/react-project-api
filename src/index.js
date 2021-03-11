@@ -10,7 +10,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
     <Person name = 'Peter'/>
-    <Vehicle />
+    <Vehicle name = 'Benz' model = 'Maybach'/>
   </React.StrictMode>,
   document.getElementById('root')
 );
