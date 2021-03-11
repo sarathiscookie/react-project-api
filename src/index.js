@@ -8,7 +8,7 @@ import Person from './Person/Person';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Person />
+    <Person name = 'Peter'/>
   </React.StrictMode>,
   document.getElementById('root')
 );
