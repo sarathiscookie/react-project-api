@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Person from './Person/Person';
+import Vehicle from './Person/Vehicle';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Person name = 'Peter'/>
+    <Vehicle />
   </React.StrictMode>,
   document.getElementById('root')
 );
