@@ -5,12 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Person from './Person/Person';
 import Vehicle from './Person/Vehicle';
+import User from './User/User';
+import Like from './User/Likes';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Person name = 'Peter'/>
     <Vehicle name = 'Benz' model = 'Maybach'/>
+    <User name =  'Dean'/>
   </React.StrictMode>,
   document.getElementById('root')
 );
