@@ -14,6 +14,7 @@ ReactDOM.render(
     <Person name = 'Peter'/>
     <Vehicle name = 'Benz' model = 'Maybach'/>
     <User name =  'Dean'/>
+    <Like count = '5'/>
   </React.StrictMode>,
   document.getElementById('root')
 );

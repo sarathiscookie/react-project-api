@@ -1,11 +1,13 @@
 import React from 'react';
 
-const like = (props) => {
-    return (
-        <div>
-            <span>{ props.count }</span>
-        </div>
-    )
+class Like extends React.Component {
+    render() {
+        return (
+            <div>
+                <span>{ this.props.count }</span>
+            </div>
+        );
+    }
 }
 
-export default like;
+export default Like;
