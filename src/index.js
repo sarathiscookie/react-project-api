@@ -8,6 +8,7 @@ import Vehicle from './Person/Vehicle';
 import User from './User/User';
 import Like from './User/Likes';
 import Blog from './Blog/Blog';
+import Button from './Blog/Button';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.render(
     <User name =  'Dean'/>
     <Like count = '5'/>
     <Blog likes = '10' comments = '10'>This is a technlogiy blog.</Blog>
+    <Button />
   </React.StrictMode>,
   document.getElementById('root')
 );
